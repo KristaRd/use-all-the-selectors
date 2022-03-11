@@ -10,6 +10,11 @@ html {
 
 body {
   background-color: #fdf6e3;
+  color: #000;
+}
+
+div {
+  color: #fff;
 }
 
 header, footer {
