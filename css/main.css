@@ -1,7 +1,7 @@
 html {
   box-sizing: border-box;
   font-family: Georgia, serif;
-  line-height: 1.15;
+  line-height: 1.14;
 }
 
 *, *::before, *::after {
@@ -32,12 +32,12 @@ nav ul {
   color: #93a1a1;
 }
 
-.dfn + strong {
-  color: #fff;
-}
-
 .wrapper > .dfn {
   background-color: #b58900;
+}
+
+.dfn + strong {
+  color: #fff;
 }
 
 a:not(.no-highlight) {
