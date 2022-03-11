@@ -1,5 +1,15 @@
+html {
+  box-sizing: border-box;
+  font-family: Georgia, serif;
+  line-height: 1.5;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
 body {
-  background-color: #fdf6e3
+  background-color: #fdf6e3;
 }
 
 header, footer {
@@ -30,7 +40,7 @@ nav ul {
   color: #fff;
 }
 
-a:not (.no-highlight) {
+a:not(.no-highlight) {
   background-color: #719e07;
 }
 
