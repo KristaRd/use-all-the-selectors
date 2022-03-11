@@ -13,8 +13,8 @@ body {
   color: #000;
 }
 
-div {
-  color: #fff;
+div > p {
+  color: #000;
 }
 
 header, footer {
