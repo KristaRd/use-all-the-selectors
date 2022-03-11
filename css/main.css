@@ -1,7 +1,7 @@
 html {
   box-sizing: border-box;
   font-family: Georgia, serif;
-  line-height: 1.12;
+  line-height: 1.125;
 }
 
 *, *::before, *::after {
@@ -28,7 +28,7 @@ nav ul {
   background-color: #eee8d5;
 }
 
-#contents, #favs, #facts, .types {
+#contents, #favs, #facts, #types {
   color: #93a1a1;
 }
 
@@ -36,7 +36,7 @@ nav ul {
   background-color: #b58900;
 }
 
-.dfn strong:last-of-type {
+.dfn > strong:last-of-type {
   color: #fff;
 }
 
