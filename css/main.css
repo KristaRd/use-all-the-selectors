@@ -1,7 +1,7 @@
 html {
   box-sizing: border-box;
   font-family: Georgia, serif;
-  line-height: 1.125;
+  line-height: 1.25;
 }
 
 *, *::before, *::after {
@@ -10,19 +10,15 @@ html {
 
 body {
   background-color: #fdf6e3;
-  color: #000;
-}
-
-div > p {
-  color: #000;
 }
 
 header, footer {
   font-size: 1.5rem;
 }
 
-nav ul {
+nav > ul {
   font-family: sans-serif;
+  line-height: 1.2;
 }
 
 .logo {
