@@ -1,7 +1,8 @@
 html {
   box-sizing: border-box;
   font-family: Georgia, serif;
-  line-height: 1.25;
+  line-height: normal;
+  color: #000;
 }
 
 *, *::before, *::after {
@@ -37,7 +38,7 @@ nav > ul {
   background-color: #b58900;
 }
 
-.dfn > strong:last-of-type {
+strong .dfn:last-of-type {
   color: #fff;
 }
 
