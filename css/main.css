@@ -1,8 +1,5 @@
 html {
   box-sizing: border-box;
-  font-family: Georgia, serif;
-  line-height: normal;
-  color: #000;
 }
 
 *, *::before, *::after {
@@ -19,7 +16,6 @@ header, footer {
 
 nav > ul {
   font-family: sans-serif;
-  line-height: 1.2;
 }
 
 .logo {
